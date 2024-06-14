@@ -1,10 +1,84 @@
-#red {
-    border: 1px solid red;
+.red {
+    background-color: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.glow1 {
+    box-shadow: 0 0 20px 10px red;
+}
+
+.yellow {
+    background-color: yellow;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.glow2 {
+    box-shadow: 0 0 20px 10px yellow;
+}
+
+.green {
+    background-color: green;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    
+}
+
+.glow3 {
+    box-shadow: 0 0 20px 10px green;
+}
+
+.purple {
+    background-color: purple;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    opacity: 0;
 }
 
 
 
+.show {
+    opacity: 1;
+    background-color: purple;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    box-shadow: 0 0 20px 10px purple;
+}
 
+
+.stick {
+    background-color: black;
+    border-radius: 5px 5px 0 0;
+    width: 15px;
+    height: 80px;
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: 10px 10px 10px 5px gray;
+}
+
+#container {
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 10px;
+    width: 70px;
+    height: 230px;
+    margin: auto;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 10px 10px 10px 5px gray;
+}
 
 
 
