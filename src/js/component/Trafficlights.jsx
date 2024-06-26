@@ -9,6 +9,7 @@ const Trafficlights = () => {
         console.log(color)
     } 
 
+    
     return (
         
         <div id='container' className='d-flex flex-column border '>
@@ -23,7 +24,6 @@ const Trafficlights = () => {
             <div onClick={() => handleColor('green')} className={color === 'green' ? 'green glow3' : 'green'} ></div>
 
             <div onClick={() => setShowPurple(prev => !prev)} className={showPurple ? 'show' : 'purple'}></div>
-
         </div>
     )
 }

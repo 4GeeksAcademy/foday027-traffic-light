@@ -2,7 +2,7 @@ import React from "react";
 
 const Stick = () => {
     return (
-        <div className="stick"></div>
+        <div className="stick pole "></div>
     )
 }
 
